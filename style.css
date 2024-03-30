@@ -117,8 +117,8 @@ img{
     height: 50px;
     width: 150px;
     position: absolute;
-    top: 94%;
-    left: 93%;
+    top: 95%;
+    left: 92%;
     transform: translate(-50%,-50%);
 }
 
@@ -134,7 +134,7 @@ img{
 
 #ad{
     position: absolute;
-    top: 80%;
+    top: 67%;
     left: 36%;
     transform: translate(-50%,-50%);
     width: 100%;
