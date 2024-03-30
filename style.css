@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #040720;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(162, 160, 160);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(162, 160, 160);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav h3{
+    font-size: 17px;
+    border: 2px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #040720;
+    color: #fff;
+}
+#nav i{
+    font-size: 16px;
+    border: 2px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 700;
+    font-size: 22px;
+    
+    text-transform: uppercase;
+}
+
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    background-color: #040720;
+    color: #fff;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#main>h1{
+    font-size: 130px;
+
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 400px;
+    width: 370px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+}
+
+#img1{
+    transform: translate(-50%,-50%)rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%)rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%)rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-size: 17px;
+}
+
+#navb {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 550;
+    padding: 40px 40px;
+    margin: 10px 10px;
+}
+
+#ad{
+    position: absolute;
+    bottom: 2%;
+    left: 86%;
+    font-size: 17px;
+}
