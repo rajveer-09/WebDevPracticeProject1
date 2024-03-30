@@ -114,23 +114,29 @@ img{
 }
 
 #navb {
-    height: 100px;
-    width: 200px;
+    height: 50px;
+    width: 150px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 93%;
+    left: 93%;
+    transform: translate(-50%,-50%);
+}
+
+#navbc{
+    width: 70%;
+    height: 70%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    font-size: 25px;
-    font-weight: 550;
-    padding: 40px 40px;
-    margin: 10px 10px;
+    font-size: 20px;
+    
 }
 
 #ad{
     position: absolute;
-    bottom: 2%;
-    left: 86%;
-    font-size: 17px;
+    top: 80%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
 }
